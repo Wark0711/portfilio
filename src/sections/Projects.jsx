@@ -23,7 +23,7 @@ function Projects() {
     }
 
     return (
-        <section className='c-space my-20'>
+        <section id='work' className='c-space my-20'>
             <p className="head-text">My Work</p>
             <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 w-full">
                 <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
@@ -45,7 +45,7 @@ function Projects() {
                         </p>
                     </div>
                     <div className="flex items-center justify-between flex-wrap gap-5">
-                        <div className="flex items-center gap-3">
+                        <div className="flex items-center gap-3 flex-wrap">
                             {
                                 currentProject.tags.map((tag, index) => (
                                     <div key={index} className='tech-logo'>

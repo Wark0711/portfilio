@@ -16,6 +16,11 @@ export const navLinks = [
   },
   {
     id: 4,
+    name: 'Expereince',
+    href: '#experience',
+  },
+  {
+    id: 5,
     name: 'Contact',
     href: '#contact',
   },
@@ -58,124 +63,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Simple PPP SaaS App',
+    desc: 'Welcome to the Simple PPP! This project is a robust solution for managing and ensuring pricing consistency across multiple channels, platforms, and marketplaces.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
-    },
-    spotlight: '/assets/spotlight1.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
-    spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      'Designed as a streamlined and developer-friendly management system, this app allows businesses to monitor, analyze, and enforce price parity with ease.',
+    href: 'https://simpleppp.vercel.app/',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -187,34 +79,49 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/next.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
+        id: 3,
+        name: 'Shadcn',
+        path: 'assets/shadcn.png',
+      },
+      {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Tailwind',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 5,
+        name: 'PostgreSql',
+        path: '/assets/postgres.png',
+      },
+      {
+        id: 6,
+        name: 'Clerk',
+        path: '/assets/clerk.png',
+      },
+      {
+        id: 7,
+        name: 'Stripe',
+        path: '/assets/stripe.png',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'Library Management System',
+    desc: 'Built with Next.js, TypeScript, and Postgres, the Library Management System is a production-grade platform featuring a public-facing app and an admin interface. ',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      'It offers advanced functionalities like seamless book borrowing, robust user management, file upload using ImageKit IO and an optimized tech stack.',
+    href: 'https://lib-app-mu.vercel.app/',
     texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    logo: '/assets/lib.svg',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -224,23 +131,137 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/next.png',
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
         name: 'TypeScript',
         path: '/assets/typescript.png',
       },
       {
+        id: 3,
+        name: 'Shadcn',
+        path: 'assets/shadcn.png',
+      },
+      {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Tailwind',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 5,
+        name: 'PostgreSql',
+        path: '/assets/postgres.png',
+      },
+      {
+        id: 6,
+        name: 'Next Auth',
+        path: '/assets/auth.png',
+      },
+      {
+        id: 7,
+        name: 'Imagekit',
+        path: '/assets/ikio.jpg',
+      },
+    ],
+  },
+  {
+    title: 'Video Conferencing App',
+    desc: 'Built with tech stack like Next.js, TypeScript and GetStream IO, this project aims to relpicate video conferencing apps.',
+    subdesc:
+      'It helps users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, etc. Stay connected with colleagues, friends, and family across the globe with our intuitive.',
+    href: 'https://vc-app-rouge.vercel.app/',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/boom.svg',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/next.png',
+      },
+      {
+        id: 2,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 3,
+        name: 'Shadcn',
+        path: 'assets/shadcn.png',
+      },
+      {
+        id: 4,
+        name: 'Tailwind',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 5,
+        name: 'Clerk',
+        path: '/assets/clerk.png',
+      },
+      {
+        id: 6,
+        name: 'GetStream',
+        path: '/assets/gs.png',
+      },
+    ],
+  },
+  {
+    title: 'Multi Category Ecommerce Website',
+    desc: 'Built with tech stack like Next.js, TypeScript and more, this project aims to relpicate a multi category and multi user role based ecommerce website.',
+    subdesc:
+      'Developed a full-featured e-commerce site with features like user authentication, payment gateways, and an admin panel for managing inventory.',
+    href: 'https://wdtex.vercel.app/',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/boom.svg',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Next.js',
+        path: '/assets/next.png',
+      },
+      {
+        id: 2,
+        name: 'MUI',
+        path: 'assets/mui.png',
+      },
+      {
+        id: 3,
+        name: 'Framer',
+        path: 'assets/framer.png',
+      },
+      {
+        id: 4,
+        name: 'Auth',
+        path: '/assets/auth.png',
+      },
+      {
+        id: 5,
+        name: 'Stripe',
+        path: '/assets/stripe.png',
+      },
+      {
+        id: 6,
+        name: 'Dummy',
+        path: '/assets/dujs.png',
+      },
+      {
+        id: 6,
+        name: 'Mongo',
+        path: '/assets/mongo.png',
       },
     ],
   },
