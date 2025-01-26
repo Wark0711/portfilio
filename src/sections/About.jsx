@@ -26,7 +26,7 @@ function About() {
                         <img src="/assets/grid1.png" alt="grid-1" className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'>Hi, I'm Rahul Kaushik</p>
-                            <p className='grid-subtext'>With 1.5 years of experience, I have honed my skills in both frontend and backend, with a focus on animated 3D websites.</p>
+                            <p className='grid-subtext'>With 2 years of hands-on experience as a full stack developer, I specialize in designing and implementing robust, scalable, and efficient web solutions. My expertise lies in both frontend technologies like React and Next JS, and backend frameworks such as Node.js or Spring Boot</p>
                         </div>
                     </div>
 
@@ -36,7 +36,7 @@ function About() {
                         <img src="/assets/grid2.png" alt="grid-2" className='w-full sm:h-[276px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
-                            <p className='grid-subtext'>I specialize in JavaScript/TypeScript witht a focus on React and Next.JS ecosystem</p>
+                            <p className='grid-subtext'>Full-stack development with proficiency in HTML, CSS and JS along with ReactJS and NextJS. Experienced in MERN Stack and familiar with project deployment. Good understanding of performance optimization and accessibility, along with cloud services like AWS.</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ function About() {
                         <img src="/assets/grid3.png" alt="grid-3" className='w-full sm:h-[266px] h-fit object-contain' />
                         <div>
                             <p className='grid-headtext'>My Passion for Coding</p>
-                            <p className='grid-subtext'>I love solving problems and building things through code. Coding isn't just me profession, it is my passion</p>
+                            <p className='grid-subtext'>I love solving problems and building things through code. Coding isn't just me profession, it is my passion. When I’m not coding, you’ll find me exploring open-source projects and learning new technologies.</p>
                         </div>
                     </div>
                 </div>
