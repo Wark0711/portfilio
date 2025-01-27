@@ -66,8 +66,8 @@ function Hero() {
                 <p className="hero_tag text-gray_gradient">Building Seamless Digital Experiences</p>
             </div>
             <div className="w-full h-full absolute inset-0">
-                {/* <Leva /> */}
-                {/* <Canvas className='w-full h-full'>
+                <Leva />
+                <Canvas className='w-full h-full'>
                     <Suspense fallback={<CanvasLoader />}>
                         <PerspectiveCamera makeDefault position={[0, 0, 20]} />
 
@@ -84,7 +84,7 @@ function Hero() {
                         <ambientLight intensity={1} />
                         <directionalLight position={[10, 10, 10]} intensity={0.5} />
                     </Suspense>
-                </Canvas> */}
+                </Canvas>
             </div>
 
             <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">

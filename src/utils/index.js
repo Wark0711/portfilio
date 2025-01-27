@@ -16,7 +16,7 @@ export const navLinks = [
   },
   {
     id: 4,
-    name: 'Expereince',
+    name: 'Experience',
     href: '#experience',
   },
   {
@@ -29,35 +29,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'John Smith',
+    position: 'Next',
+    img: 'assets/next.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      `Rahul is an exceptional full-stack developer who brings a perfect blend of technical expertise and creativity to every project. He has an excellent grasp of both front-end and back-end technologies and consistently delivers high-quality code.`,
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'John Doe',
+    position: 'Shadcn UI',
+    img: 'assets/shadcn.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Working with Rahul has been a fantastic experience. He has a deep understanding of modern frameworks and tools, and his proactive communication ensures that all requirements are understood and implemented flawlessly.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Sam',
+    position: 'React',
+    img: 'assets/react.svg',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      `Rahul is a highly skilled full-stack developer who consistently exceeds expectations. He consistently delivers innovative solutions and is always eager to learn new technologies to enhance his skills. If you're looking for someone reliable and talented, Rahul is your guy.`,
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Phil Smith',
+    position: 'Node',
+    img: 'assets/node.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      `He is detail-oriented, efficient, and always open to feedback. Whether it's building a new application or optimizing existing systems, Rahul's contributions are invaluable. I’d gladly work with him again on future projects!`,
   },
 ];
 
@@ -68,7 +68,7 @@ export const myProjects = [
     subdesc:
       'Designed as a streamlined and developer-friendly management system, this app allows businesses to monitor, analyze, and enforce price parity with ease.',
     href: 'https://simpleppp.vercel.app/',
-    texture: '/textures/project/project4.mp4',
+    texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -120,7 +120,7 @@ export const myProjects = [
     subdesc:
       'It offers advanced functionalities like seamless book borrowing, robust user management, file upload using ImageKit IO and an optimized tech stack.',
     href: 'https://lib-app-mu.vercel.app/',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/project2.mp4',
     logo: '/assets/lib.svg',
     logoStyle: {
       backgroundColor: '#1C1A43',
@@ -172,7 +172,7 @@ export const myProjects = [
     subdesc:
       'It helps users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, etc. Stay connected with colleagues, friends, and family across the globe with our intuitive.',
     href: 'https://vc-app-rouge.vercel.app/',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/project3.mp4',
     logo: '/assets/boom.svg',
     logoStyle: {
       backgroundColor: '#1C1A43',
@@ -219,7 +219,7 @@ export const myProjects = [
     subdesc:
       'Developed a full-featured e-commerce site with features like user authentication, payment gateways, and an admin panel for managing inventory.',
     href: 'https://wdtex.vercel.app/',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/project4.mp4',
     logo: '/assets/boom.svg',
     logoStyle: {
       backgroundColor: '#1C1A43',
@@ -281,29 +281,49 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'URPopular',
+    pos: 'Full Stack Developer',
+    duration: '2023 - Present',
+    title: "Developed a fully responsive website 'BRIEFSEA' from scratch and implemented user authentication system, service listing and search functionality, and integration with payment gateways and APIs for enhanced usability",
+    icon: '/assets/urp.svg',
     animation: 'victory',
-  },
-  {
-    id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
+    workdone: {
+      hiring: [
+        {
+          id: 11,
+          point: 'Implemented a hiring network using MERN Stack and Chakra UI.'
+        },
+        {
+          id: 12,
+          point: `Implemented Google, LinkedIn using authentication system using JWT Auth and OAuth2.`
+        },
+        {
+          id: 13,
+          point: 'Implemented form validation system using Formik and Yup for profile completion, new briefs and comments with replies on it.'
+        },
+        {
+          id: 14,
+          point: 'Worked on chatting, file upload, automated email sending, automated presentation creation and config driven form features using Socket IO and AWS S3 bucket.'
+        },
+        {
+          id: 15,
+          point: 'Implemented a dedicated admin panel to view all users, verify profiles and send custom push notifications.'
+        }
+      ],
+      ins: [
+        {
+          id: 21,
+          point: 'Implemented Google, Meta, and GitHub sign-in using Passport.JS'
+        },
+        {
+          id: 22,
+          point: `Worked with YouTube V3 API and Instagram Graph API to verify details of the user on YouTube and Instagram username input.`
+        },
+        {
+          id: 23,
+          point: 'Implemented payment calculation system on basis of followers, posts and likes & payment system using Instamojo Payment Gateway.'
+        }
+      ],
+    }
   },
 ];
