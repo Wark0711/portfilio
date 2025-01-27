@@ -65,7 +65,7 @@ function Hero() {
                 <p className='sm:text-3xl text-xl font-medium text-white text-center font-generalsans'>Hi Everyone, I am Rahul <span className='waving-hand'>👋</span></p>
                 <p className="hero_tag text-gray_gradient">Building Seamless Digital Experiences</p>
             </div>
-            <div className="w-full h-full absolute inset-0">
+            {/* <div className="w-full h-full absolute inset-0">
                 <Leva />
                 <Canvas className='w-full h-full'>
                     <Suspense fallback={<CanvasLoader />}>
@@ -85,10 +85,10 @@ function Hero() {
                         <directionalLight position={[10, 10, 10]} intensity={0.5} />
                     </Suspense>
                 </Canvas>
-            </div>
+            </div> */}
 
             <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-                <a href="#about">
+                <a href="#contact">
                     <Button name={`Let's work together`} isBeam containerClass={'sm:w-fit w-full sm:min-w-96'} />
                 </a>
             </div>

@@ -25,7 +25,7 @@ function Projects() {
     return (
         <section id='work' className='c-space my-20'>
             <p className="head-text">My Work</p>
-            <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 w-full">
+            <div className="grid grid-cols-1 mt-12 w-full">
                 <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
                     <div className="absolute top-0 right-0">
                         <img src={currentProject.spotlight} alt="spotlight" className='w-full h-96 object-cover rounded-xl' />
@@ -68,7 +68,7 @@ function Projects() {
                         </button>
                     </div>
                 </div>
-                <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+                {/* <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
                     <Canvas>
                         <ambientLight intensity={Math.PI / 2} />
                         <directionalLight position={[10, 10, 5]} />
@@ -81,7 +81,7 @@ function Projects() {
                         </Center>
                         <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
                     </Canvas>
-                </div>
+                </div> */}
             </div>
         </section>
     )

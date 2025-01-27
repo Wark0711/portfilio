@@ -10,10 +10,10 @@ function Footer() {
             </div>
 
             <div className="flex gap-3">
-                <div className="social-icon cursor-pointer fixed bottom-4 left-4" onClick={() => window.open('https://github.com/Wark0711')}>
+                <div className="social-icon cursor-pointer fixed bottom-4 left-4 z-10" onClick={() => window.open('https://github.com/Wark0711')}>
                     <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
                 </div>
-                <div className="social-icon cursor-pointer fixed bottom-4 right-4" onClick={() => window.open('https://www.linkedin.com/in/rahul-kaushik-669688218')}>
+                <div className="social-icon cursor-pointer fixed bottom-4 right-4 z-10" onClick={() => window.open('https://www.linkedin.com/in/rahul-kaushik-669688218')}>
                     <img src="/assets/lnkdn.svg" alt="linkedin" className="w-1/2 h-1/2" />
                 </div>
             </div>
